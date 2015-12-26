@@ -16,21 +16,28 @@ For each test case, output one line containing "Case #x: " followed by the indic
 
 Limits
 
+```
 5 ≤ C ≤ 1000
 1 ≤ P ≤ 1000
+```
 
 Small dataset
 
+```
 N = 10
 3 ≤ I ≤ 100
+```
 
 Large dataset
 
+```
 N = 50
 3 ≤ I ≤ 2000
+```
 
 Sample
 
+```
 Input 
 3
 100
@@ -44,6 +51,9 @@ Input
 2 1 9 4 4 56 90 3
 
 Output 
+
 Case #1: 2 3
 Case #2: 1 4
 Case #3: 4 5
+
+```
