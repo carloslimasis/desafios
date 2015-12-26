@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.DBRef"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.hamcrest.CoreMatchers"/>
+<fullyQualifiedTypeName name="org.springframework.util.Assert"/>
+<fullyQualifiedTypeName name="org.junit.Assert"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.config.AbstractMongoConfiguration"/>
+<fullyQualifiedTypeName name="com.mongodb.ServerAddress"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.core.mapping.Field"/>
+<fullyQualifiedTypeName name="org.springframework.data.mongodb.repository.MongoRepository"/>
+<fullyQualifiedTypeName name="java.util.function.Consumer"/>
+</qualifiedTypeNameHistroy>

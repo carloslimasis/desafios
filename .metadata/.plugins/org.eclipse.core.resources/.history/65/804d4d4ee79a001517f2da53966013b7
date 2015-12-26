@@ -1,0 +1,40 @@
+package br.com.contatos.service.impl;
+
+import java.util.List;
+
+import br.com.contatos.entity.Contato;
+import br.com.contatos.service.ContatoService;
+
+public class ContatoServiceImpl implements ContatoService {
+
+	@Override
+	public Contato create(Contato todo) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Contato delete(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Contato> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Contato findById(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Contato update(Contato contato) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

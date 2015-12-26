@@ -1,0 +1,20 @@
+package br.com.contatos.entity;
+
+import java.math.BigDecimal;
+
+import org.springframework.data.annotation.Id;
+
+public final class Operadora {
+
+	public public Operadora() {
+	}
+	
+	@Id
+	private String id;
+	private String nome;
+	private Integer ddd;
+	private String categoria;
+	private BigDecimal preco;
+	
+	
+}

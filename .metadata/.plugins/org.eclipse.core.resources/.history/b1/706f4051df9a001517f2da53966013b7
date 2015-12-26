@@ -1,0 +1,37 @@
+package br.com.contatos.entity;
+
+import java.math.BigDecimal;
+
+import org.springframework.data.annotation.Id;
+
+public final class Operadora {
+
+	public Operadora() {}
+
+	@Id
+	private String id;
+	private String nome;
+	private Integer codigo;
+	private String categoria;
+	private BigDecimal preco;
+
+	static class Builder {
+		
+		private Builder(){}
+		
+		private String nome;
+		private Integer codigo;
+		private String categoria;
+		private BigDecimal preco;
+		
+		Builder nome(String nome){
+			this.nome = nome;
+			return this;
+		}
+		
+		Builder codigo(Integer codigo){
+			this.codigo = codigo;
+			return this;
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package br.com.contatos.service.exception;
+
+public class ContatoNotFoundException extends Exception {
+
+	public ContatoNotFoundException() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

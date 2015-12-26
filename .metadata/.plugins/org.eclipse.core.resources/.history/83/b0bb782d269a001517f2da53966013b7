@@ -1,0 +1,15 @@
+package br.com.contatos;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.data.repository.Repository;
+
+import br.com.contatos.entity.Contato;
+
+interface ContatoRepository extends Repository<Contato, String> {
+	void delete(Contato contato);
+	List<Contato> findAll();
+	Optional<Contato> findOne(String id);
+	Contato save(Contato contato);
+}

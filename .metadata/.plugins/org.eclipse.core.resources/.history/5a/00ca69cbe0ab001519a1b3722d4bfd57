@@ -1,0 +1,45 @@
+package googlecodejam;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.stream.Stream;
+
+public class PrimeiroDesafio {
+
+	public static void main(String[] args) throws Exception {
+		final FileReader reader = new FileReader(new File("src/main/resources/A-small-practice.in"));
+		final BufferedReader br = new BufferedReader(reader);
+		
+		int credito = 0;
+		int contador = 0;
+		int produtos = 0;
+		String linha = br.readLine();
+		while(linha != null){
+			contador++;
+			System.out.printf("%s\n", linha);
+			
+			if(contador != 0 && contador % 1 == 0){
+				credito = Integer.parseInt(linha);
+			}else if(contador != 0 && contador % 2 == 0){
+				produtos = Integer.parseInt(linha);
+			}else{
+				String[] precos = linha.split("");
+				Integer[] precosToInt = new Integer[precos.length];
+				for (int i = 0; i < precos.length; i++) {
+					precosToInt[i] = Integer.parseInt(precos[i]);
+				}
+			}
+			
+			linha = br.readLine();
+			
+		}
+		
+//		final Stream<String> lines = br.lines();
+//		lines.forEach((String l) -> System.out.printf("%s\n", l));
+		br.close();
+	}
+
+}

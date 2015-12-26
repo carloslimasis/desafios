@@ -1,0 +1,24 @@
+package br.com.contatos.config;
+
+import org.springframework.data.mongodb.config.AbstractMongoConfiguration;
+
+import com.mongodb.Mongo;
+
+public class ApplicationConfig extends AbstractMongoConfiguration {
+
+	@Override
+	protected String getDatabaseName() {
+		return "test";
+	}
+
+	@Override
+	public Mongo mongo() throws Exception {
+		return new Mongo();
+	}
+
+	@Override
+	  protected String getMappingBasePackage() {
+	    return "br.com.contatos";
+	  }
+
+}
