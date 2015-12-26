@@ -1,7 +1,0 @@
-package br.com.contatos;
-
-import org.springframework.data.repository.Repository;
-
-interface ContatoRepository extends Repository<Contato, String> {
-
-}

@@ -1,3 +1,0 @@
-INDEX VERSION 1.127+/Users/carlos/Documents/Desenvolvimento/prog-fun-workspace/.metadata/.plugins/org.eclipse.jdt.core
-3783163749.index
-2651185772.index
